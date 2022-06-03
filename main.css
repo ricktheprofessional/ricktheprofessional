@@ -1,0 +1,28 @@
+main{
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgb(226, 226, 226);
+    border-radius: 10px;
+}
+
+nav{
+    background: linear-gradient(90deg,rgb(255, 213, 0),rgb(255, 237, 70));
+}
+
+body{
+    background-color: #FFF;
+}
+
+
+
+
+
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background: linear-gradient(90deg,rgb(255, 213, 0),rgb(255, 237, 70));
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
